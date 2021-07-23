@@ -1,0 +1,106 @@
+body {
+   box-sizing: border-box;
+   font-family: 'Lato', sans-serif;
+   padding: 0;
+   margin: 0;
+}
+html {
+   font-size: 62.5%;
+}
+/* HEADER */
+header {
+   align-items: center;
+   background-color: #28df99;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+header h1 {
+   margin: 1rem 0;
+   font-size: 4rem;
+}
+header p {
+   font-size: 1.6rem;
+}
+/* HEADER */
+
+/* MAIN */
+main {
+   background-color: #28df99;
+   background-image: linear-gradient(
+      180deg,
+      #28df99 0%,
+      #99f3bd 33%,
+      #d2f6c5 66%,
+      #f6f7d4 100%
+   );
+   display: flex;
+   flex-direction: column;
+}
+.container__form {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 1rem 3rem;
+}
+.container__form h2 {
+   font-size: 3rem;
+}
+form {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   gap: 3rem;
+}
+.form__figura {
+   background-color: rgba(255, 255, 255, 0.2);
+   border: 2px solid #fff;
+   box-shadow: 1px 3px 13px -1px rgba(0, 0, 0, 0.97);
+   border-radius: 1.5rem;
+   padding: 2rem;
+   gap: 1.5rem;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   width: 25%;
+   height: 100%;
+   -webkit-box-shadow: 1px 3px 13px -1px rgba(0, 0, 0, 0.97);
+}
+.form__figura h3 {
+   font-size: 2.5rem;
+   margin: 0px;
+}
+.form__figura label {
+   font-size: 1.8rem;
+}
+.form__figura input {
+   background-color: rgba(0, 0, 0, 0.1);
+   border: 1px solid #323232;
+   border-radius: 2rem;
+   outline: none;
+   height: 2rem;
+   padding: 0.7rem;
+}
+.form__figura button {
+   background-color: #28df99;
+   border: none;
+   color: #fff;
+   font-size: 1.8rem;
+   padding: 1rem;
+   border-radius: 2rem;
+}
+.form__figura button:hover {
+   cursor: pointer;
+}
+/* MAIN */
+
+/* FOOTER */
+footer {
+   background-color: #f6f7d4;
+   padding: 3rem 2rem;
+   text-align: center;
+}
+footer p {
+   font-size: 2rem;
+   margin: 0;
+}

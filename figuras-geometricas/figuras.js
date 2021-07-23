@@ -21,14 +21,12 @@ const calcularPerimetroCuadrado = () => {
    const input = document.getElementById('inputCuadrado'); //Tomamos la etiqueta del input por su ID
    const value = input.value; //Tomamos el valor que el usuario escribio en el input
    const perimetro = perimetroCuadrado(value); //Calculamos perimetro mediante el valor del usuario
-   alert(perimetro);
 };
 
 const calcularAreaCuadrado = () => {
    const input = document.getElementById('inputCuadrado'); //Tomamos la etiqueta del input por su ID
    const value = input.value; //Tomamos el valor que el usuario escribio en el input
    const area = areaCuadrado(value); //Calculamos perimetro mediante el valor del usuario
-   alert(area);
 };
 //Area y perimetro del cuadrado
 

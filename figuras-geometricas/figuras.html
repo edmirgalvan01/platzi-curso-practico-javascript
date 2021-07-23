@@ -5,19 +5,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
     <title>Figuras geometricas | Curso practico de JS</title>
 </head>
 
 <body>
     <header>
         <h1>Figuras geometricas</h1>
-        <p>Este es el primer taller del curso practico de JS</p>
+        <p>Una forma facil y rapida de hacer tus tareas</p>
     </header>
     <main>
-        <section>
-            <h2>Calcula el area y perimetro de un cuadrado</h2>
+        <section class="container__form">
+            <h2>Calcula el area y perimetro de tus figuras</h2>
             <form>
-                <div class="figura">
+                <div class="form__figura">
                     <h3>Cuadrado</h3>
                     <label for="inputCuadrado">
                         Escribe cuanto miden los lados de tu cuadrado
@@ -26,7 +30,7 @@
                     <button type="button" onclick="calcularPerimetroCuadrado()">Calcular el perimetro</button>
                     <button type="button" onclick="calcularAreaCuadrado()">Calcular el area</button>
                 </div>
-                <div class="figura">
+                <div class="form__figura">
                     <h3>Triangulo</h3>
                     <label for="inputLado1Triangulo">Escribe cuanto mide el lado 1 del triangulo</label>
                     <input type="number" id="inputLado1Triangulo">
@@ -43,7 +47,7 @@
                     <button type="button" onclick="calcularPerimetroTriangulo()">Calcular el perimetro</button>
                     <button type="button" onclick="calcularAreaTriangulo()">Calcular el area</button>
                 </div>
-                <div class="figura">
+                <div class="form__figura">
                     <h3>Circulo</h3>
                     <label for="inputRadioCirculo">Escribe cuanto mide el radio de tu circulo</label>
                     <input type="number" id="inputRadioCirculo">
@@ -55,6 +59,9 @@
             </form>
         </section>
     </main>
+    <footer>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, corrupti.</p>
+    </footer>
     <script src="./figuras.js"></script>
 </body>
 

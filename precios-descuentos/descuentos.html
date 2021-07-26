@@ -5,6 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap" rel="stylesheet">
     <title>Porcentajes y descuentos</title>
 </head>
 
@@ -15,14 +19,18 @@
     </header>
     <main>
         <form>
-            <label for="inputPrecio">Escribe el precio de tu producto:</label>
-            <input type="number" id="inputPrecio">
-
-            <label for="inputDescuento">Escribe el descuento de tu producto:</label>
-            <input type="number" id="inputDescuento">
-
-            <label for="inputCupon">Escribe el nombre de tu cupon:</label>
-            <input type="text" id="inputCupon">
+            <div class="form__item">
+                <label for="inputPrecio">Escribe el precio de tu producto:</label>
+                <input type="number" id="inputPrecio">
+            </div>
+            <div class="form__item">
+                <label for="inputDescuento">Escribe el descuento de tu producto:</label>
+                <input type="number" id="inputDescuento">
+            </div>
+            <div class="form__item">
+                <label for="inputCupon">Escribe el nombre de tu cupon:</label>
+                <input type="text" id="inputCupon">
+            </div>
 
             <button type="button" onclick="onClickButtonPrecioDescuento()">Calcular el precio con descuento</button>
 

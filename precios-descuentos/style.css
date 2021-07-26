@@ -1,0 +1,93 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: 'Fira Sans', sans-serif;
+}
+
+html {
+   font-size: 62.5%;
+}
+
+header {
+   background-color: #f2f2f2;
+   border-bottom: 1px solid #000;
+   display: flex;
+   justify-content: space-around;
+   flex-direction: column;
+   align-items: center;
+   font-size: 1.5rem;
+   padding: 1rem;
+   text-align: center;
+   gap: 1rem;
+}
+
+main {
+   height: 90vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+form {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.form__item {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   margin: 3rem;
+}
+
+.form__item label {
+   font-size: 1.4rem;
+   margin-bottom: 1rem;
+}
+
+.form__item input {
+   background-color: rgba(0, 0, 0, 0.05);
+   border: 1px solid #000;
+   outline: none;
+   border-radius: 0.5rem;
+   height: 2rem;
+   padding: 1.2rem;
+}
+
+form button {
+   background-color: aquamarine;
+   border: none;
+   border-radius: 1rem;
+   width: 50%;
+   margin: 3rem;
+   padding: 1rem;
+   transition: all 0.5s;
+}
+
+form button:hover {
+   border: 1px solid #000;
+   background-color: transparent;
+}
+
+form p {
+   font-size: 1.5rem;
+   font-weight: bold;
+}
+
+@media (min-width: 700px) {
+   .form__item label {
+      font-size: 2rem;
+   }
+   form p {
+      font-size: 2.5rem;
+   }
+   form button {
+      font-size: 1.5rem;
+   }
+}

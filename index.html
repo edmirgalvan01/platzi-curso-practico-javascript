@@ -5,18 +5,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
     <title>Home || Curso practico de JavaScript</title>
 </head>
 
 <body>
     <header>
-        <h1>Talleres curso practico de JavaScript</h1>
+        <h1>Proyectos hechos con JavaScript Vanilla</h1>
         <p>Estos trabajos fueron desarrollados por Edmir Galvan</p>
+        <div class="header__redes-sociales">
+            <ul>
+                <li><a href="https://github.com/edmirgalvan01"><img src="./img/github.png" alt=""></a></li>
+                <li><a href="https://www.linkedin.com/in/edmirgalvan/"><img src="./img/linkedin.png" alt=""></a></li>
+            </ul>
+        </div>
     </header>
     <main>
-        <nav>
-            <li><a href="./figuras-geometricas/figuras.html">Taller #1</a></li>
-            <li><a href="./precios-descuentos/descuentos.html">Taller #2</a></li>
+        <nav class="navbar">
+            <li>
+                <a href="./figuras-geometricas/figuras.html">Calculadora de figuras geometricas</a>
+                <img src="./img/geometrica.png" alt="">
+            </li>
+            <li>
+                <a href="./precios-descuentos/descuentos.html">Calculadora de descuentos</a>
+                <img src="./img/descuento.png" alt="">
+            </li>
         </nav>
     </main>
 </body>
